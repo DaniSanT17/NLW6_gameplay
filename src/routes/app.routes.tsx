@@ -9,7 +9,7 @@ import { theme } from "../global/styles/theme";
 import { AppointmentCreate } from "../screens/AppointmentCreate";
 const { Navigator, Screen } = createStackNavigator();
 
-export function AuthRoutes() {
+export function AppRoutes() {
   return (
     <Navigator
       headerMode="none"
